@@ -1,19 +1,16 @@
-package main.java.assignments.assignment2;
+package java.assignments;
 
 import java.util.ArrayList;
 
 public class User {
-    // TODO: tambahkan attributes yang diperlukan untuk class ini
     private String nama;
     private String nomorTelepon;
     private String email;
-    // private String password;
     private String lokasi;
     private String role;
     private ArrayList<Order> orderHistory;
-    
-        public User(String nama, String nomorTelepon, String email, String lokasi, String role){
-        // TODO: buat constructor untuk class ini
+
+    public User(String nama, String nomorTelepon, String email, String lokasi, String role) {
         this.nama = nama;
         this.nomorTelepon = nomorTelepon;
         this.email = email;
@@ -22,9 +19,8 @@ public class User {
         this.orderHistory = new ArrayList<>();
     }
 
-    // TODO: tambahkan methods yang diperlukan untuk class ini
-     // Getter methods
-     public String getNama() {
+    // Getter methods
+    public String getNama() {
         return nama;
     }
 
