@@ -1,7 +1,5 @@
 package assignments.assignment2;
 
-import java.util.ArrayList;
-
 public class Order {
     // TODO: tambahkan attributes yang diperlukan untuk class ini
     private String orderID;
