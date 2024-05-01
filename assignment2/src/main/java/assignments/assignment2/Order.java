@@ -1,6 +1,4 @@
-package main.java.assignments.assignment2;
-
-import java.util.ArrayList;
+package assignments.assignment2;
 
 public class Order {
     // TODO: tambahkan attributes yang diperlukan untuk class ini
